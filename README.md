@@ -1,1 +1,1 @@
-# competitive_programming_solutions
+* Soultions to different problems
