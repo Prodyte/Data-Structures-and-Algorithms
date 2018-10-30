@@ -10,9 +10,7 @@ int main(int argc, char const *argv[])
     double amount;
     cin>>withdraw>>amount;
     if( withdraw%5 == 0 && withdraw < (amount-0.5))
-    {
         amount-=withdraw + 0.50;
-        cout<<fixed<<setprecision(2)<<amount<<endl;
-    }
+    cout<<fixed<<setprecision(2)<<amount<<endl;
     return 0;
 }
